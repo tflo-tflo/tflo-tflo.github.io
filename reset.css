@@ -1,0 +1,45 @@
+/* Reset CSS */
+
+
+/* Reset HTML font size to a base of 4 */
+html {
+    font-size: 4px;
+}
+
+/* Remove default margins and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, blockquote {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove default hyperlink styles */
+a {
+    color: inherit;
+}
+
+/* Set a consistent baseline for typography */
+body {
+    line-height: 1.5;
+}
+
+/* Ensure images are not resizable by default */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset form elements to have no styles */
+input, textarea, button, select {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}

@@ -1,0 +1,83 @@
+/* styles css */
+
+@font-face {
+    font-family: 'atkinson-reg'; 
+    src: url('assets/font/WOFF/Atkinson-Hyperlegible-Regular-102.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'atkinson-bold'; 
+    src: url('assets/font/WOFF/Atkinson-Hyperlegible-Bold-102.woff') format('woff');
+}
+
+:root {
+    --base0: #002b36; /*dark*/
+    --base1: #839496; /*brblue*/
+    --base2: #93a1a1; /*brcyan*/
+    --fore0: #d33682; /*magenta*/
+    --fore1: #6c71c4; /*violet*/
+    --fore2: #2aa198; /*cyan*/
+    --fore3: #268bd2; /*blue*/
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--base0);
+    color: var(--fore2);
+    font-family: "atkinson-reg", sans-serif;
+    font-size: 8rem;
+    height: 100%;
+}
+
+a:link, a:active, a:visited {
+    color: var(--fore1);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    display: inline;
+    font-family: "atkinson-bold", sans-serif;
+    font-size: 12rem;
+    margin-bottom: 4rem;
+}
+
+ul li {
+    margin-bottom: 4rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-template-rows: repeat(6, 1fr);
+
+    align-items: center;
+    gap: 4rem; 
+    height: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    width: 100%; 
+}
+
+.content {
+    grid-column-start: 2;
+    grid-column-end: 10;
+}
+
+.content-child {
+    margin-bottom: 8rem;
+}
+
+.content-main {
+    grid-row-start: 2;
+}
+
+.content-footer {
+    grid-row-start: 6;
+    font-size: 4rem;
+}
