@@ -81,3 +81,12 @@ ul li {
     grid-row-start: 6;
     font-size: 4rem;
 }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 4rem; /* Reduce the font size for mobile */
+    }
+    h1 {
+        font-size: 6rem;
+    }
+}
