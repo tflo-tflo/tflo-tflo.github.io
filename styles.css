@@ -66,7 +66,7 @@ ul li {
 
 .content {
     grid-column-start: 2;
-    grid-column-end: 10;
+    grid-column-end: 11;
 }
 
 .content-child {
@@ -84,9 +84,9 @@ ul li {
 
 @media (max-width: 768px) {
     body {
-        font-size: 4rem; /* Reduce the font size for mobile */
+        font-size: 6rem; /* Reduce the font size for mobile */
     }
     h1 {
-        font-size: 6rem;
+        font-size: 8rem;
     }
 }
